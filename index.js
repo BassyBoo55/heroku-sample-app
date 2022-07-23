@@ -34,10 +34,10 @@ client.on('interactionCreate', async (interaction) => {
     if (interaction.isButton()) {
         const commandName = interaction.customId;
         var Embed = new MessageEmbed()
-            .setColor('#00000')
-            .setTitle('Base Embed')
-            .setDescription('Base Description')
-            .setThumbnail('https://www.videogameschronicle.com/files/2021/05/discord-new-logo.jpg')
+            Embed.setColor('#00000')
+            Embed.setTitle('Base Embed')
+            Embed.setDescription('Base Description')
+            Embed.setThumbnail('https://www.videogameschronicle.com/files/2021/05/discord-new-logo.jpg')
 
         // check button clicked by customID
         if (commandName == 'JoinMyBass') {
